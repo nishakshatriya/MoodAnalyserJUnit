@@ -1,12 +1,11 @@
-import com.bridgelabz.moodanalyser.MoodAnalyser;
+package com.bridgelabz.moodanalyser;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 
-public class ObjectReflector {
-
+public class ObjectReflactor {
     public static void main(String[] args) {
-        ObjectReflector.dump(new MoodAnalyser("Sad message"),1);
+        ObjectReflactor.dump(new MoodAnalyser("Sad message"),1);
     }
 
     public static String dump(Object o, int callCount) {

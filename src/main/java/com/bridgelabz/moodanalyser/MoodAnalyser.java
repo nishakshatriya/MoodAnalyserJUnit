@@ -1,17 +1,17 @@
 package com.bridgelabz.moodanalyser;
 
 public class MoodAnalyser {
+    private String message;
+    public MoodAnalyser()
+    {
 
- private String message;
-public MoodAnalyser()
-{
+    }
+    public MoodAnalyser(String message)
+    {
+        this.message=message;
+    }
 
-}
-public MoodAnalyser(String message)
-{
-    this.message=message;
-}
-        public String analyse() throws MoodException {
+    public String analyse() throws MoodException {
             try{
                 if (message.length()==0)
                     throw new MoodException(MoodException.ExceptionType.ENTERED_EMPTY,"plz enter valid entry");
