@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.moodanalysertest.MoodAnalyserTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-12-27T06:14:03" hostname="admin1-HP-EliteBook-Folio-9480m" time="0.043">
+<testsuite name="com.bridgelabz.moodanalysertest.MoodAnalyserTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-12-28T05:24:32" hostname="admin1-HP-EliteBook-Folio-9480m" time="0.044">
   <properties/>
   <testcase name="whenGivenSad_shouldReturnSad" classname="com.bridgelabz.moodanalysertest.MoodAnalyserTest" time="0.002"/>
-  <testcase name="whenGivenNull_shouldReturnHappy" classname="com.bridgelabz.moodanalysertest.MoodAnalyserTest" time="0.037"/>
+  <testcase name="whenGivenNull_shouldReturnHappy" classname="com.bridgelabz.moodanalysertest.MoodAnalyserTest" time="0.036"/>
   <testcase name="whenGivenSadMessageSAlphabetCapital_shouldReturnSad" classname="com.bridgelabz.moodanalysertest.MoodAnalyserTest" time="0.0"/>
+  <testcase name="WhenGivenObjectMessage_ShouldReturnTrue" classname="com.bridgelabz.moodanalysertest.MoodAnalyserTest" time="0.001"/>
+  <testcase name="givenMooodAnalyser_whenProper_Shouldreturn" classname="com.bridgelabz.moodanalysertest.MoodAnalyserTest" time="0.0"/>
   <testcase name="whenGivenNull_ShouldThrow" classname="com.bridgelabz.moodanalysertest.MoodAnalyserTest" time="0.0"/>
+  <testcase name="givenMoodAnalyser_whenProper_ShouldReturnObject" classname="com.bridgelabz.moodanalysertest.MoodAnalyserTest" time="0.0"/>
   <testcase name="whengivenhappy_shouldReturnHappy" classname="com.bridgelabz.moodanalysertest.MoodAnalyserTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[com.bridgelabz.moodanalyser.MoodException: plz enter valid entry
-	at com.bridgelabz.moodanalyser.MoodAnalyser.analyse(MoodAnalyser.java:24)
-	at com.bridgelabz.moodanalysertest.MoodAnalyserTest.whenGivenNull_shouldReturnHappy(MoodAnalyserTest.java:56)
+	at com.bridgelabz.moodanalyser.MoodAnalyser.analyse(MoodAnalyser.java:26)
+	at com.bridgelabz.moodanalysertest.MoodAnalyserTest.whenGivenNull_shouldReturnHappy(MoodAnalyserTest.java:92)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

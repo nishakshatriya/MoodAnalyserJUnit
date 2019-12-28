@@ -1,5 +1,7 @@
 package com.bridgelabz.moodanalyser;
 
+import java.util.Objects;
+
 public class MoodAnalyser {
     private String message;
     public MoodAnalyser()
@@ -24,5 +26,14 @@ public class MoodAnalyser {
                 throw  new MoodException(MoodException.ExceptionType.ENTERED_NULL,"plz enter valid entry");
             }
         }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        MoodAnalyser that = (MoodAnalyser) o;
+        return Objects.equals(message, that.message);
     }
+
+}
 
