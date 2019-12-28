@@ -137,4 +137,25 @@ public class MoodAnalyserTest {
             }
         }
     }
+
+    @Test
+    public void WhenGivenWrongMethodName_ShouldReturnNoSuchMethod(){
+        try {
+            Constructor<?>constructor=Class.forName("com.bridgelabz.moodanalyser.MoodAnalyser").getConstructor();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+            try {
+                throw new MoodException(MoodException.ExceptionType.NO_SUCH_METHOD, "Invalid Entry");
+            }catch (MoodException a){
+                a.printStackTrace();
+            }
+        }catch (ClassNotFoundException e) {
+            try {
+
+                    throw new MoodException(MoodException.ExceptionType.NO_SUCH_CLASS, "Invalid Entry");
+            } catch (MoodException a) {
+                a.printStackTrace();
+            }
+        }
+    }
 }
