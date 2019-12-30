@@ -15,6 +15,11 @@ public class MoodAnalyser {
 
     }
 
+    public String analyseMethod(String message){
+        this.message=message;
+        return  analyse();
+
+    }
 
     public String analyse() throws MoodException {
             try{

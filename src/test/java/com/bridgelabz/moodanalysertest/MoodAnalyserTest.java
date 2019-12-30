@@ -9,6 +9,7 @@ import org.junit.rules.ExpectedException;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.concurrent.Callable;
 
 public class MoodAnalyserTest {
@@ -173,12 +174,32 @@ public class MoodAnalyserTest {
 
     @Test
     public void WhenGivenConstructorWithNoParameter_ShouldReturnObject() {
-     //   Constructor constructor = null;
-       Constructor constructor = MoodAnalyserFactory.getConstructor();
+        //   Constructor constructor = null;
+        Constructor constructor = MoodAnalyserFactory.getConstructor();
         Object object = MoodAnalyserFactory.getObjectWhenNoParameter(constructor);
         MoodAnalyser moodAnalyser = (MoodAnalyser) object;
         Assert.assertEquals(true, moodAnalyser.equals(new MoodAnalyser()));
 
 
     }
+
+
+    @Test
+    public void WhenMethodInvoked_ShouldReturnCorrect() {
+        try {
+            Constructor constructor = MoodAnalyserFactory.getConstructor(String.class);
+            Object obj = MoodAnalyserFactory.getObjectConstructor(constructor,"happy");
+            Method method = MoodAnalyser.class.getDeclaredMethod("analyseMethod");
+            Object obj1 = method.invoke(obj);
+            Assert.assertEquals("happy",obj1.toString());
+
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        }
+    }
 }
+

@@ -33,7 +33,7 @@ public class MoodAnalyserFactory {
         return null;
     }
 
-    public static Constructor getConstructor(Class<?>... parameter)  {
+    public static Constructor getConstructor(Class<?>... parameter) {
         Class<?> moodAnalyserClass = null;
         try {
             moodAnalyserClass = Class.forName("com.bridgelabz.moodanalyser.MoodAnalyser");
@@ -52,7 +52,7 @@ public class MoodAnalyserFactory {
     }
 
 
-    public static Object getObjectConstructor(Constructor constructor, String...parameter) {
+    public static Object getObjectConstructor(Constructor constructor, String... parameter) {
         try {
             Object message = null;
             Object obj = constructor.newInstance(parameter);
@@ -82,4 +82,6 @@ public class MoodAnalyserFactory {
         }
         return obj;
     }
+
+
 }
