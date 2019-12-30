@@ -7,20 +7,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/moodanalyser/ObjectReflactor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalysertest/MoodAnalyserTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalyzer/MoodAnalyserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/moodanalysertest/MoodAnalyserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/moodanalysertest/MoodAnalyserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.moodanalysertest.MoodAnalyserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bridgelabz.moodanalysertest.MoodAnalyserTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.moodanalysertest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bridgelabz.moodanalysertest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.moodanalysertest.MoodAnalyserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.bridgelabz.moodanalysertest.MoodAnalyserTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,8 +33,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/moodanalyser/MoodAnalyser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalysertest/MoodAnalyserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="154" column="104" selection-start-line="154" selection-start-column="104" selection-end-line="154" selection-end-column="104" />
+            <state relative-caret-position="224">
+              <caret line="173" column="9" lean-forward="true" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalyzer/MoodAnalyserFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="59">
+              <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,10 +118,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalysertest/moodAnalyserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ObjectReflector.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bridgelabz/moodanalyser/ObjectReflactor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalyzer/MoodAnalyserFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bridgelabz/moodanalyser/MoodException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bridgelabz/moodanalyser/MoodAnalyser.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalysertest/MoodAnalyserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalyzer/MoodAnalyserFactory.java" />
       </list>
     </option>
   </component>
@@ -152,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,6 +199,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MoodAnalyserTest.WhenGivenWrongMethodName_ShouldReturnNoSuchMethod">
+  <component name="RunManager" selected="Gradle.MoodAnalyserTest.WhenGivenConstructorWithNoParameter_ShouldReturnObject">
     <configuration name="MoodAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -260,12 +251,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.WhenGivenObjectMessage_ShouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.WhenGivenConstructorWithNoParameter_ShouldReturnObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.moodanalysertest.MoodAnalyserTest.WhenGivenObjectMessage_ShouldReturnTrue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.moodanalysertest.MoodAnalyserTest.WhenGivenConstructorWithNoParameter_ShouldReturnObject&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoodAnalyserTest.WhenGivenConstructorWithParameter_ShouldReturnObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.moodanalysertest.MoodAnalyserTest.WhenGivenConstructorWithParameter_ShouldReturnObject&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -320,33 +331,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenMoodAnalyser_whenProper_ShouldReturnObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.moodanalysertest.MoodAnalyserTest.givenMoodAnalyser_whenProper_ShouldReturnObject&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MoodAnalyserTest.WhenGivenConstructorWithNoParameter_ShouldReturnObject" />
+        <item itemvalue="Gradle.MoodAnalyserTest.WhenGivenConstructorWithParameter_ShouldReturnObject" />
         <item itemvalue="Gradle.MoodAnalyserTest.WhenGivenWrongMethodName_ShouldReturnNoSuchMethod" />
         <item itemvalue="Gradle.MoodAnalyserTest.WhenGivenWrongClassName_ShouldReturnNoSuchClassError" />
         <item itemvalue="Gradle.MoodAnalyserTest" />
-        <item itemvalue="Gradle.MoodAnalyserTest.WhenGivenObjectMessage_ShouldReturnTrue" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyser_whenProper_ShouldReturnObject" />
       </list>
     </recent_temporary>
   </component>
@@ -364,41 +355,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoodAnalyserTest_WhenGivenWrongClassName_ShouldReturnNoSuchClassError - 2019.12.28 at 11h 59m 10s.xml">
-      <configuration name="MoodAnalyserTest.WhenGivenWrongClassName_ShouldReturnNoSuchClassError" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MoodAnalyserTest_WhenGivenWrongClassName_ShouldReturnNoSuchClassError - 2019.12.28 at 11h 59m 25s.xml">
-      <configuration name="MoodAnalyserTest.WhenGivenWrongClassName_ShouldReturnNoSuchClassError" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MoodAnalyserTest_WhenGivenWrongClassName_ShouldReturnNoSuchClassError - 2019.12.28 at 11h 59m 47s.xml">
-      <configuration name="MoodAnalyserTest.WhenGivenWrongClassName_ShouldReturnNoSuchClassError" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MoodAnalyserTest_WhenGivenWrongClassName_ShouldReturnNoSuchClassError - 2019.12.28 at 11h 59m 59s.xml">
-      <configuration name="MoodAnalyserTest.WhenGivenWrongClassName_ShouldReturnNoSuchClassError" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MoodAnalyserTest_WhenGivenWrongClassName_ShouldReturnNoSuchClassError - 2019.12.28 at 12h 00m 54s.xml">
-      <configuration name="MoodAnalyserTest.WhenGivenWrongClassName_ShouldReturnNoSuchClassError" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MoodAnalyserTest_WhenGivenWrongMethodName_ShouldReturnNoSuchMethod - 2019.12.28 at 12h 17m 33s.xml">
-      <configuration name="MoodAnalyserTest.WhenGivenWrongMethodName_ShouldReturnNoSuchMethod" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MoodAnalyserTest_WhenGivenWrongMethodName_ShouldReturnNoSuchMethod - 2019.12.28 at 12h 17m 44s.xml">
-      <configuration name="MoodAnalyserTest.WhenGivenWrongMethodName_ShouldReturnNoSuchMethod" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="MoodAnalyserTest_WhenGivenWrongMethodName_ShouldReturnNoSuchMethod - 2019.12.28 at 12h 18m 06s.xml">
-      <configuration name="MoodAnalyserTest.WhenGivenWrongMethodName_ShouldReturnNoSuchMethod" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="MoodAnalyserTest_WhenGivenWrongMethodName_ShouldReturnNoSuchMethod - 2019.12.28 at 12h 18m 07s.xml">
       <configuration name="MoodAnalyserTest.WhenGivenWrongMethodName_ShouldReturnNoSuchMethod" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="MoodAnalyserTest_WhenGivenWrongMethodName_ShouldReturnNoSuchMethod - 2019.12.28 at 12h 19m 04s.xml">
       <configuration name="MoodAnalyserTest.WhenGivenWrongMethodName_ShouldReturnNoSuchMethod" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="MoodAnalyserTest_WhenGivenConstructorWithParameter_ShouldReturnObject - 2019.12.30 at 10h 50m 04s.xml">
+      <configuration name="MoodAnalyserTest.WhenGivenConstructorWithParameter_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoodAnalyserTest_WhenGivenConstructorWithNoParameter_ShouldReturnObject - 2019.12.30 at 11h 42m 07s.xml">
+      <configuration name="MoodAnalyserTest.WhenGivenConstructorWithNoParameter_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoodAnalyserTest_WhenGivenConstructorWithNoParameter_ShouldReturnObject - 2019.12.30 at 11h 45m 05s.xml">
+      <configuration name="MoodAnalyserTest.WhenGivenConstructorWithNoParameter_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoodAnalyserTest_WhenGivenConstructorWithNoParameter_ShouldReturnObject - 2019.12.30 at 11h 45m 27s.xml">
+      <configuration name="MoodAnalyserTest.WhenGivenConstructorWithNoParameter_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoodAnalyserTest_WhenGivenConstructorWithNoParameter_ShouldReturnObject - 2019.12.30 at 11h 46m 48s.xml">
+      <configuration name="MoodAnalyserTest.WhenGivenConstructorWithNoParameter_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoodAnalyserTest_WhenGivenConstructorWithNoParameter_ShouldReturnObject - 2019.12.30 at 11h 47m 22s.xml">
+      <configuration name="MoodAnalyserTest.WhenGivenConstructorWithNoParameter_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoodAnalyserTest_WhenGivenConstructorWithNoParameter_ShouldReturnObject - 2019.12.30 at 11h 47m 53s.xml">
+      <configuration name="MoodAnalyserTest.WhenGivenConstructorWithNoParameter_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoodAnalyserTest_WhenGivenConstructorWithNoParameter_ShouldReturnObject - 2019.12.30 at 11h 55m 25s.xml">
+      <configuration name="MoodAnalyserTest.WhenGivenConstructorWithNoParameter_ShouldReturnObject" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26656026" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27134877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -487,16 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalyzer/MoodAnalyserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/moodanalyser/MoodException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -506,15 +488,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/moodanalyser/MoodAnalyser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalysertest/MoodAnalyserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="154" column="104" selection-start-line="154" selection-start-column="104" selection-end-line="154" selection-end-column="104" />
+        <state relative-caret-position="224">
+          <caret line="173" column="9" lean-forward="true" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bridgelabz/moodanalyzer/MoodAnalyserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
