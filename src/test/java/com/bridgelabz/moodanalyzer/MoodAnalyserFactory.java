@@ -1,6 +1,7 @@
 package com.bridgelabz.moodanalyzer;
 
 import com.bridgelabz.moodanalyser.MoodAnalyser;
+import com.bridgelabz.moodanalyser.MoodException;
 import jdk.jfr.internal.PrivateAccess;
 
 import java.awt.*;
@@ -55,19 +56,22 @@ public class MoodAnalyserFactory {
 
 
     public static Object getObjectConstructor(Constructor constructor, String... parameter) {
+        Object message = null;
         try {
-            Object message = null;
-            Object obj = constructor.newInstance();
-            return (MoodAnalyser) obj;
+
+            message = constructor.newInstance(parameter);
+            //return (MoodAnalyser) obj;
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
             e.printStackTrace();
+        } catch (IllegalArgumentException e){
+            throw new MoodException(MoodException.ExceptionType.ENTERED_NULL,"Enter proper valid value ");
         }
 
-        return null;
+        return message;
     }
 
 

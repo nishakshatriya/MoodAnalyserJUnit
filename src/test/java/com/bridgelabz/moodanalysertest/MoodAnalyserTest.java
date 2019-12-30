@@ -3,6 +3,7 @@ package com.bridgelabz.moodanalysertest;
 import com.bridgelabz.moodanalyser.MoodAnalyser;
 import com.bridgelabz.moodanalyser.MoodException;
 import com.bridgelabz.moodanalyzer.MoodAnalyserFactory;
+import jdk.vm.ci.meta.Value;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
@@ -225,13 +226,24 @@ public class MoodAnalyserTest {
         try {
             Class<?> cls = null;
             cls = Class.forName("com.bridgelabz.moodanalyser.MoodAnalyser");
-           // Constructor constructor = cls.getConstructor(String.class);
+            // Constructor constructor = cls.getConstructor(String.class);
             Field field = cls.getField("message12");
             Assert.assertEquals("message", field);
         } catch (ClassNotFoundException e) {
-                e.printStackTrace();
-        }catch (NoSuchFieldException e) {
-                e.getMessage();
+            e.printStackTrace();
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
         }
     }
+
+    @Test
+    public void WhenGivenNullValue_ShouldReturnNullPointerException() {
+        try {
+            Constructor constructor = MoodAnalyserFactory.getConstructor(String.class);
+            MoodAnalyserFactory.getObjectConstructor(constructor, null);
+        }catch (MoodException e){
+            e.printStackTrace();
+        }
     }
+}
+
