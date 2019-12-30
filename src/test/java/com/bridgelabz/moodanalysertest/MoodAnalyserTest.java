@@ -8,6 +8,7 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.concurrent.Callable;
@@ -205,11 +206,11 @@ public class MoodAnalyserTest {
 
     @Test
     public void WhenMethodInvoked_ShouldReturnProperMessage() throws ClassNotFoundException {
-        Method method = new MoodAnalyserFactory().getMethod("analyse");
-       // String mood = null;
+        Method method = new MoodAnalyserFactory().getMethod("analyseMethod");
+        // String mood = null;
         try {
-         String mood = (String)method.invoke(new MoodAnalyser(),"i am happy");
-            Assert.assertEquals("happy",mood);
+            String mood = (String) method.invoke(new MoodAnalyser(), "i am happy");
+            Assert.assertEquals("happy", mood);
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
@@ -218,5 +219,19 @@ public class MoodAnalyserTest {
 
 
     }
-}
 
+    @Test
+    public void WhenGivenImproperField_ShouldThrowException() {
+        try {
+            Class<?> cls = null;
+            cls = Class.forName("com.bridgelabz.moodanalyser.MoodAnalyser");
+           // Constructor constructor = cls.getConstructor(String.class);
+            Field field = cls.getField("message12");
+            Assert.assertEquals("message", field);
+        } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+        }catch (NoSuchFieldException e) {
+                e.getMessage();
+        }
+    }
+    }

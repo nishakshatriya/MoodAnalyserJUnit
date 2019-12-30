@@ -3,7 +3,7 @@ package com.bridgelabz.moodanalyser;
 import java.util.Objects;
 
 public class MoodAnalyser {
-    private String message;
+    public String message;
 
     public MoodAnalyser(String message)
 
