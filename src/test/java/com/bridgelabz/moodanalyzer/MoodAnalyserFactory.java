@@ -6,6 +6,8 @@ import jdk.jfr.internal.PrivateAccess;
 import java.awt.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.concurrent.Callable;
 
 public class MoodAnalyserFactory {
 
@@ -55,7 +57,7 @@ public class MoodAnalyserFactory {
     public static Object getObjectConstructor(Constructor constructor, String... parameter) {
         try {
             Object message = null;
-            Object obj = constructor.newInstance(parameter);
+            Object obj = constructor.newInstance();
             return (MoodAnalyser) obj;
         } catch (InstantiationException e) {
             e.printStackTrace();
@@ -84,4 +86,17 @@ public class MoodAnalyserFactory {
     }
 
 
+    public Method getMethod(String methodName) {
+       Constructor constructor = getConstructor();
+       Object object = getObjectConstructor(constructor);
+       // Method method = null;
+        try {
+           Method method = object.getClass().getDeclaredMethod(methodName, String.class);
+            return method;
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 }
+

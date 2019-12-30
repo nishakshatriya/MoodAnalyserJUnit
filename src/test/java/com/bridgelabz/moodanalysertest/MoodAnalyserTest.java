@@ -184,7 +184,7 @@ public class MoodAnalyserTest {
     }
 
 
-    @Test
+    /*@Test
     public void WhenMethodInvoked_ShouldReturnCorrect() {
         try {
             Constructor constructor = MoodAnalyserFactory.getConstructor(String.class);
@@ -200,6 +200,23 @@ public class MoodAnalyserTest {
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
         }
+    }
+*/
+
+    @Test
+    public void WhenMethodInvoked_ShouldReturnProperMessage() throws ClassNotFoundException {
+        Method method = new MoodAnalyserFactory().getMethod("analyse");
+       // String mood = null;
+        try {
+         String mood = (String)method.invoke(new MoodAnalyser(),"i am happy");
+            Assert.assertEquals("happy",mood);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
+
+
     }
 }
 
